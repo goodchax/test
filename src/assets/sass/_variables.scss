@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+// switch
+//-----------------------------------------------------	
+$borderBoxSwitch:                true !default; // true为*{box-sizing:border-box;}
+
+
+// font相关
+//-----------------------------------------------------	
+$fontSize:                       12px !default;
+$padFontSize:                    12px !default;
+$fontLineHeight:                 1.5 !default;
+$fontFamily:                     Tahoma, "Microsoft Yahei", Arial, sans-serif !default;
+
+
+// 背景色，文本色，边框色，链接色
+//-----------------------------------------------------	
+$colorText:                      #666 !default;
+$colorLink:                      #666 #f09738 !default; // 

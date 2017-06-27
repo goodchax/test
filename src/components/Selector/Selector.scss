@@ -1,0 +1,88 @@
+
+.normal {
+}
+.slans_dept_select {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  color: rgba(0,0,0,.65);
+  font-size: 12px;
+  width: 100%;
+}
+
+.selector_panel {
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+}
+
+.selector_panel .title {
+    font-size: 16px;
+    color: #363636;
+    padding: 14px 0px;
+}
+
+.selector_panel .body {
+    width: 100%;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    background: #f4f6f8;
+    height: 362px;
+}
+.selector_panel .selector_input {
+    padding: 11px;
+}
+.selector_navbar {
+    padding: 5px 11px;
+    overflow: hidden;
+    font-size: 12px;
+    cursor: pointer;
+}
+.selector_navbar_item {
+    max-width: 33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #38adff;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 22px;
+}
+.selector_navbar_item .iconfont {
+    position: absolute;
+    left: 2px;
+    color: #333;
+    font-size: 12px;
+}
+.selector_navbar_item:last-child {
+    color: #333333;
+    cursor: default;
+}
+.list_item {
+    width: 100%;
+    list-style: none;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: #363636;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.list_item:hover{
+    background: #eee;
+}
+.btn_children {
+  color: #38adff;
+  font-size: 14px;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  padding-left: 10px;
+  border-left: 1px solid #eee;
+  -webkit-text-stroke-width: inherit;
+  text-stroke-width: inherit;
+}

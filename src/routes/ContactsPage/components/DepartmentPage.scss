@@ -1,0 +1,108 @@
+.department{
+
+  .left {
+  	background: #f4f6f8;
+  	padding:0 18px;
+  	border-right: 1px solid #ddd;
+    .depttree {
+      font-size: 16px;
+    }
+
+  }
+  .right {
+  	padding: 26px;
+  	background: #fff;
+    .contact_header {
+    }
+    .contact_header .span {
+    	float: left;
+    	line-height: 22px;
+    	font-size: 18px;
+    }
+    .contact_header .set {
+    	margin-left: 10px;
+
+    }
+    .deptchild {
+    	margin-top: 10px;
+    }
+    .title {
+    	font-size: 18px;
+    	padding: 10px 0;
+    }
+    .title .span {
+    	margin-left: 10px;
+    }
+    .action_content {
+    	width: 100%;
+    	padding: 0px 15px;
+    	min-height: 38px;
+    	background: #eceff4;
+    	line-height: 38px;
+    }
+    .drag_drop_dept_item {
+    	width: 100%;
+    	padding: 10px 15px;
+    	font-size: 12px;
+    	border: 1px solid transparent;
+    	border-bottom: 1px solid #ebebeb;
+    	position: relative;
+    	background: #fff;
+    	cursor: pointer;
+    }
+
+    .drag_drop_dept_item .number{
+    	position: absolute;
+    	right: 0px;
+    	width: 30px;
+    	text-align: left;
+    	top: 50%;
+    	margin-top: -8px;
+    }
+
+    .modal_head {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding: 19px 35px;
+      font-size: 20px;
+      width: 100%;
+      background: #fff;
+      z-index: 999999999;
+      border-bottom: 1px solid #eee;
+    }
+    .modal_body {
+        width: 100%;
+        padding-top: 66px;
+        height: 100%;
+        overflow-y: auto;
+        padding-bottom: 55px;
+    }
+    .modal_foot {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        background: #fff;
+        z-index: 999999999;
+        text-align: center;
+        padding: 10px 0px;
+        margin-bottom: 0px;
+        border-top: 1px solid #eee;
+    }
+    .action_content {
+        width: 100%;
+        padding: 0px 15px;
+        min-height: 38px;
+        background: #eceff4;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .ems_form {
+        padding-top: 18px;
+        overflow: hidden;
+    }
+
+  }
+
+}

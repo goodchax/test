@@ -1,0 +1,38 @@
+.login {
+  width: 280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  color: #000;
+  overflow: hidden;
+  .icon-omp {
+    width: 72px;
+    height: 72px;
+    background: #364d79;
+    color: #fff;
+    font-size: 24px;
+    line-height: 72px;
+
+  }
+  h3 {
+    line-height: 24px;
+  }
+}
+.switch {
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+  top: 50px;
+  font-size: 20px;
+  .previous {
+    left: 0px;
+    position: absolute;
+  }
+  .next {
+    right: 0px;
+    position: absolute;
+  }
+}

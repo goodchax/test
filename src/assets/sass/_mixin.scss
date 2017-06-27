@@ -1,0 +1,33 @@
+@charset "UTF-8";
+// mixin & %
+// 既定义了mixin也定义了%，根据需求使用@include或@extend调用
+//-----------------------------------------------------
+// Center-align a block level element
+@mixin center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%center-block {
+  @include center-block;
+}
+
+// translate center
+@mixin center-translate($direction: both) {
+  position: absolute;
+  @if $direction==both {
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  } @else if $direction==x {
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+  } @else if $direction==y {
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+%center-translate {
+  @include center-translate;
+}

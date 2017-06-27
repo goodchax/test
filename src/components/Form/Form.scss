@@ -1,0 +1,85 @@
+
+.normal {
+}
+
+
+.masklayer {
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	z-index: 990;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	opacity:0.1;
+}
+
+.modal {
+	height: 100%;
+	background: #fff;
+	top: 0px;
+	right: 0px;
+	z-index: 999;
+	position: fixed;
+	border: 1px solid #dedede;
+	animation:mymove infinite;
+	animation-duration:0.3s;
+	/* Safari and Chrome */
+	-webkit-animation:modalmove 1;
+	-webkit-animation-duration:0.3s;
+	box-shadow: -4px 0px 11px 0px rgba(0, 0, 0, 0.14);
+}
+
+@keyframes modalmove
+{
+	from {right:-600px;}
+	to {right:0px;}
+}
+
+@-webkit-keyframes modalmove /* Safari and Chrome */
+{
+	from {right:-600px;}
+	to {right:0px;}
+}
+.drawer_modal_head {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 19px 35px;
+    font-size: 20px;
+    width: 100%;
+    background: #fff;
+    z-index: 999999999;
+    border-bottom: 1px solid #eee;
+}
+.drawer_modal_body {
+    width: 100%;
+    padding-top: 66px;
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 55px;
+}
+.drawer_modal_foot {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: #fff;
+    z-index: 999999999;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #eee;
+}
+.drawer_action_content {
+    width: 100%;
+    padding: 0px 15px;
+    min-height: 38px;
+    background: #eceff4;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+.drawer_ems_form {
+    padding-top: 18px;
+    overflow: hidden;
+}
